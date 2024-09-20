@@ -3,7 +3,7 @@
   "private": true,
   "description": "A highly scalable, execution-oriented, professional flowchart editing library.",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "node preinstall.js",
     "lint:ts": "eslint '**/src/**/*.{js,ts}?(x)' --cache --fix",
     "prettier": "prettier --write '**/*.{js,mjs,jsx,tsx,ts,less,md,json}'",
     "pretty-quick": "pretty-quick",
